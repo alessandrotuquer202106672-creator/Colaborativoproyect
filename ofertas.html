@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ofertas de Productos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .productos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .producto {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 250px;
+      padding: 15px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .producto img {
+      width: 100%;
+      border-radius: 6px;
+    }
+
+    .nombre {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .precio-original {
+      color: #888;
+      text-decoration: line-through;
+    }
+
+    .precio-oferta {
+      color: #e53935;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .boton-comprar {
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .boton-comprar:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🔥 Ofertas Especiales 🔥</h1>
+
+  <div class="productos">
+
+    <div class="producto">
+      <img src="https://via.placeholder.com/250x150.png?text=Auriculares" alt="Auriculares">
+      <div class="nombre">Auriculares Bluetooth</div>
+      <div class="precio-original">Q50.00</div>
+      <div class="precio-oferta">Q29.99</div>
+      <a href="#" class="boton-comprar">Comprar</a>
+    </div>
+
+    <div class="producto">
+      <img src="https://via.placeholder.com/250x150.png?text=Smartwatch" alt="Smartwatch">
+      <div class="nombre">Smartwatch Deportivo</div>
+      <div class="precio-original">Q120.00</div>
+      <div class="precio-oferta">Q79.99</div>
+      <a href="#" class="boton-comprar">Comprar</a>
+    </div>
+
+    <div class="producto">
+      <img src="https://via.placeholder.com/250x150.png?text=Cámara" alt="Cámara">
+      <div class="nombre">Cámara HD 1080p</div>
+      <div class="precio-original">Q90.00</div>
+      <div class="precio-oferta">Q59.99</div>
+      <a href="#" class="boton-comprar">Comprar</a>
+    </div>
+
+  </div>
+
+</body>
+</html>
