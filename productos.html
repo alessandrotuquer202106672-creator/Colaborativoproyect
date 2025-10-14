@@ -12,8 +12,22 @@
     nav a { margin: 0 10px; text-decoration: none; color: #333; }
     h1 { margin-bottom: 10px; }
     ul { list-style-type: none; padding: 0; }
-    li { background: #eaeaea; margin-bottom: 10px; padding: 15px; border-radius: 8px; }
-    li strong { color: #007BFF; }
+    li { 
+      background: #eaeaea; 
+      margin-bottom: 20px; 
+      padding: 15px; 
+      border-radius: 8px; 
+      display: flex; 
+      align-items: center;
+      gap: 15px;
+    }
+    li img {
+      width: 120px;
+      height: 120px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+    li strong { color: #007BFF; display: block; margin-bottom: 5px; }
     .precio { font-weight: bold; color: #28a745; }
   </style>
 </head>
@@ -30,24 +44,39 @@
   <main class="container">
     <ul>
       <li>
-        <strong>Producto A:</strong> Smartphone de última generación con pantalla OLED de 6.5", cámara de 48 MP y batería de larga duración.
-        <br><span class="precio">Precio: Q3,500</span>
+        <img src="https://via.placeholder.com/120x120?text=Smartphone" alt="Producto A">
+        <div>
+          <strong>Producto A:</strong> Smartphone de última generación con pantalla OLED de 6.5", cámara de 48 MP y batería de larga duración.
+          <br><span class="precio">Precio: Q3,500</span>
+        </div>
       </li>
       <li>
-        <strong>Producto B:</strong> Laptop ultraligera con procesador i7, 16GB RAM, 512GB SSD y gráficos dedicados.
-        <br><span class="precio">Precio: Q7,200</span>
+        <img src="https://via.placeholder.com/120x120?text=Laptop" alt="Producto B">
+        <div>
+          <strong>Producto B:</strong> Laptop ultraligera con procesador i7, 16GB RAM, 512GB SSD y gráficos dedicados.
+          <br><span class="precio">Precio: Q7,200</span>
+        </div>
       </li>
       <li>
-        <strong>Producto C:</strong> Auriculares inalámbricos con cancelación de ruido, hasta 20 horas de batería y carga rápida.
-        <br><span class="precio">Precio: Q1,200</span>
+        <img src="https://via.placeholder.com/120x120?text=Auriculares" alt="Producto C">
+        <div>
+          <strong>Producto C:</strong> Auriculares inalámbricos con cancelación de ruido, hasta 20 horas de batería y carga rápida.
+          <br><span class="precio">Precio: Q1,200</span>
+        </div>
       </li>
       <li>
-        <strong>Producto D:</strong> Smartwatch con monitoreo de salud, GPS integrado y notificaciones de llamadas y mensajes.
-        <br><span class="precio">Precio: Q1,800</span>
+        <img src="https://via.placeholder.com/120x120?text=Smartwatch" alt="Producto D">
+        <div>
+          <strong>Producto D:</strong> Smartwatch con monitoreo de salud, GPS integrado y notificaciones de llamadas y mensajes.
+          <br><span class="precio">Precio: Q1,800</span>
+        </div>
       </li>
       <li>
-        <strong>Producto E:</strong> Cámara digital profesional con lente intercambiable y grabación 4K.
-        <br><span class="precio">Precio: Q5,500</span>
+        <img src="https://via.placeholder.com/120x120?text=Cámara" alt="Producto E">
+        <div>
+          <strong>Producto E:</strong> Cámara digital profesional con lente intercambiable y grabación 4K.
+          <br><span class="precio">Precio: Q5,500</span>
+        </div>
       </li>
     </ul>
   </main>
@@ -57,3 +86,4 @@
   </footer>
 </body>
 </html>
+
