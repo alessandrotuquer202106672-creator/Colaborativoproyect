@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
-<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
     <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
             aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,7 +16,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="#">MENÚ</a>
+            <a class="navbar-brand" href="#">Quienes somos</a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
@@ -37,52 +37,79 @@
 </nav>
 
 <body>
-    
-    <div class="card-group">
-        <div class="card">
-            <img src="https://i.pinimg.com/1200x/99/71/21/997121c6604554ddd47d126910d0f805.jpg" class="card-img-top"
-                alt="...">
-            <div class="card-body">
-                <h5 class="card-title">TechNova Components S.A. </h5>
-                <p class="card-text">Nació en el año 2012 como un pequeño emprendimiento
-                    dedicado a la importación y ensamblaje de piezas básicas para computadoras. Su fundador, un joven
-                    entusiasta de la tecnología, soñaba con acercar los componentes de alto rendimiento a los usuarios
-                    latinoamericanos a precios accesibles.
-                    Con el paso de los años, TechNova se consolidó como un referente en el mercado de hardware,
-                    ampliando su catálogo con tarjetas gráficas, procesadores, memorias RAM, placas base, fuentes de
-                    poder y accesorios de última generación.
-                    Hoy en día, la empresa cuenta con una red de distribuidores en varios países y continúa innovando en
-                    el desarrollo de componentes con eficiencia energética y diseño moderno.</p>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <img src="https://i.pinimg.com/1200x/99/71/21/997121c6604554ddd47d126910d0f805.jpg"
+                    class="d-block w-100" alt="TechNova Components">
+                <div
+                    class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100 bg-dark bg-opacity-50 p-4 rounded-3">
+                    <h5 class="fw-bold fs-3 text-light">TechNova Components S.A.</h5>
+                    <p class="text-light text-center fs-5 w-75">
+                        Nació en el año 2012 como un pequeño emprendimiento dedicado a la importación y ensamblaje de
+                        piezas básicas para computadoras.
+                        Su fundador, un joven entusiasta de la tecnología, soñaba con acercar los componentes de alto
+                        rendimiento a los usuarios latinoamericanos
+                        a precios accesibles. Con el paso de los años, TechNova se consolidó como un referente en el
+                        mercado de hardware, ampliando su catálogo
+                        con tarjetas gráficas, procesadores, memorias RAM, placas base, fuentes de poder y accesorios de
+                        última generación.
+                        Hoy en día, la empresa cuenta con una red de distribuidores en varios países y continúa
+                        innovando en el desarrollo
+                        de componentes con eficiencia energética y diseño moderno.
+                    </p>
+                </div>
             </div>
-            <div class="card-footer">
-                <small class="text-body-secondary">Last updated 3 mins ago</small>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <img src="https://i.pinimg.com/736x/f1/d2/0f/f1d20fc140807a34b3a6d34455ea060e.jpg" class="d-block w-100"
+                    alt="Misión">
+                <div
+                    class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100 bg-dark bg-opacity-50 p-4 rounded-3">
+                    <h5 class="fw-bold fs-3 text-light">Misión</h5>
+                    <p class="text-light text-center fs-5 w-75">
+                        Brindar soluciones tecnológicas de calidad a través de la distribución y desarrollo
+                        de componentes para PC que satisfagan las necesidades de los usuarios, garantizando
+                        rendimiento, durabilidad e innovación en cada producto.
+                    </p>
+                </div>
             </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+                <img src="https://i.pinimg.com/1200x/c1/cd/c0/c1cdc043c1d3b80fd37910a4230cac7e.jpg"
+                    class="d-block w-100" alt="Visión">
+                <div
+                    class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100 bg-dark bg-opacity-50 p-4 rounded-3">
+                    <h5 class="fw-bold fs-3 text-light">Visión</h5>
+                    <p class="text-light text-center fs-5 w-75">
+                        Ser la empresa líder en Latinoamérica en la fabricación y distribución de
+                        componentes para computadoras, reconocida por su compromiso con la calidad,
+                        la innovación y la sostenibilidad tecnológica.
+                    </p>
+                </div>
+            </div>
+
         </div>
-        <div class="card">
-            <img src="https://i.pinimg.com/736x/f1/d2/0f/f1d20fc140807a34b3a6d34455ea060e.jpg" class="card-img-top" alt="">
-            <div class="card-body">
-                <h5 class="card-title">Misión</h5>
-                <p class="card-text">Brindar soluciones tecnológicas de calidad a través de la distribución y desarrollo
-                    de componentes para PC que satisfagan las necesidades de los usuarios, garantizando rendimiento,
-                    durabilidad e innovación en cada producto.</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-body-secondary">Last updated 3 mins ago</small>
-            </div>
-        </div>
-        <div class="card">
-            <img src="https://i.pinimg.com/1200x/c1/cd/c0/c1cdc043c1d3b80fd37910a4230cac7e.jpg" class="card-img-top" alt="">
-            <div class="card-body">
-                <h5 class="card-title">Visión</h5>
-                <p class="card-text">Ser la empresa líder en Latinoamérica en la fabricación y distribución de
-                    componentes para computadoras, reconocida por su compromiso con la calidad, la innovación y la
-                    sostenibilidad tecnológica.</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-body-secondary">Last updated 3 mins ago</small>
-            </div>
-        </div>
+
+        <!-- Controles -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
     </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
